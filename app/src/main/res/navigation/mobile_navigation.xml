@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/paginaInicio">
+
+    <fragment
+        android:id="@+id/paginaInicio"
+        android:name="com.example.expo.PaginaInicio"
+        android:label="@string/menuPaginaInicio"
+        tools:layout="@layout/fragment_paginainicio" />
+
+    <fragment
+        android:id="@+id/videoView"
+        android:name="com.example.expo.VideoView"
+        android:label="@string/menuVideoView"
+        tools:layout="@layout/fragment_videoview" />
+    <fragment
+        android:id="@+id/calendarView"
+        android:name="com.example.expo.CalendarView"
+        android:label="@string/menuCalendarView"
+        tools:layout="@layout/fragment_calendarview" />
+    <fragment
+        android:id="@+id/progressbar"
+        android:name="com.example.expo.Progressbar"
+        android:label="@string/menuProgressbar"
+        tools:layout="@layout/fragment_progressbar" />
+    <fragment
+        android:id="@+id/seekbar"
+        android:name="com.example.expo.Seekbar"
+        android:label="@string/menuSeekbar"
+        tools:layout="@layout/fragment_seekbar" />
+    <fragment
+        android:id="@+id/horizontalDivider"
+        android:name="com.example.expo.HorizontalDivider"
+        android:label="@string/menuHorizontalDivider"
+        tools:layout="@layout/fragment_horizontaldivider" />
+    <fragment
+        android:id="@+id/searchView"
+        android:name="com.example.expo.SearchView"
+        android:label="@string/menuSearchView"
+        tools:layout="@layout/fragment_searchview" />
+    <fragment
+        android:id="@+id/ratingbar"
+        android:name="com.example.expo.Ratingbar"
+        android:label="@string/menuRatingbar"
+        tools:layout="@layout/fragment_ratingbar" />
+</navigation>

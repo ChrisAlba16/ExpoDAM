@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DAM"
+        android:textSize="25sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Docente: Joel C Flores Escalante"
+        android:textSize="20sp"
+        android:layout_marginBottom="25sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Integrantes:"
+        android:textSize="20sp"
+        android:layout_marginBottom="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Christopher Alba"
+        android:textSize="20sp"
+        android:layout_marginBottom="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="David Quime"
+        android:textSize="20sp"
+        android:layout_marginBottom="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Angel Garcia"
+        android:textSize="20sp"
+        android:layout_marginBottom="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Wiliam Cab"
+        android:textSize="20sp"
+        android:layout_marginBottom="15sp"/>
+
+</LinearLayout>

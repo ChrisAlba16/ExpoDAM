@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Expo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Equipo 2:</string>
+    <string name="nav_header_subtitle">DAM</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="menuPaginaInicio">paginaInicio</string>
+    <string name="menuVideoView">videoView</string>
+    <string name="menuCalendarView">calendarView</string>
+    <string name="menuProgressbar">progressbar</string>
+    <string name="menuSeekbar">seekbar</string>
+    <string name="menuHorizontalDivider">horizontalDivider</string>
+    <string name="menuSearchView">searchView</string>
+    <string name="menuRatingbar">ratingbar</string>
+</resources>
